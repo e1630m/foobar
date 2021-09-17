@@ -1,4 +1,4 @@
-### C
+### C / C++
 
 # Prerequisites
 *.d
@@ -6,8 +6,10 @@
 # Object files
 *.o
 *.ko
-*.obj
 *.elf
+*.obj
+*.slo
+*.lo
 
 # Linker output
 *.ilk
@@ -18,13 +20,13 @@
 *.gch
 *.pch
 
-# Libraries
+# Libraries / Compiled Static libraries
 *.lib
 *.a
 *.la
-*.lo
+*.lai
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (inc. Windows DLLs) / Compiled Dynamic libraries
 *.dll
 *.so
 *.so.*
@@ -52,42 +54,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-
-### C++
-
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
 
 
 ### Python
@@ -235,9 +201,6 @@ cython_debug/
 # Compiled class file
 *.class
 
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -259,3 +222,6 @@ hs_err_pid*
 # IDE / editors
 .vscode
 .idea
+
+# macOS
+.DS_Store
