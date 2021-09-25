@@ -1,4 +1,4 @@
-# List of Solutions
+# Google Foobar Challenge Solutions
 | lvl | challenges | solutions |
 | :-: | :--------: | :-------: |
 |  1  | [Skipping Work](https://github.com/e1630m/foobar/blob/main/lv1/skipping_work.md)                                              | [py](https://github.com/e1630m/foobar/blob/main/lv1/skipping_work.py)                         |
