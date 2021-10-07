@@ -1,4 +1,4 @@
-# [Google Foobar Challenge](https://foobar.withgoogle.com/) Solutions
+# Google [foobar](https://foobar.withgoogle.com/) Solutions
 | lvl | challenges | solutions |
 | :-: | :--------: | :-------: |
 |  1  | [Skipping Work](./lv1/skipping_work.md)                                                    | [py](./lv1/skipping_work.py)                         |
